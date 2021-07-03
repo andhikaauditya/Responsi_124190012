@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_itemlist"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:layout_marginTop="130dp"
+    android:layout_centerHorizontal="true"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        a
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="6"
+            android:background="@color/bata"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp">
+
+
+            <TextView
+                android:id="@+id/tv_tanggal"
+                android:text="Tanggal Kasus"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_sembuh"
+                android:layout_marginLeft="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sembuh : "/>
+
+            <TextView
+                android:id="@+id/tv_meninggal"
+                android:layout_marginLeft="24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meninggal : "/>
+
+            <TextView
+                android:id="@+id/tv_terkonfirmasi"
+                android:layout_marginLeft="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terkonfirmasi : "/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
